@@ -1,6 +1,6 @@
 # Detection-JKT48-member-face
 
-This repo contain my project documentation. Result for this project, all mAP50 is 94,5%.
+This repository contain my personal project documentation about JKT48 members face recognition with YOLOv8 Object Detection. The general purpose of this project is to introduce JKT48 members to the public who can be known through facial recognition. For now, the accuracy with three members are 94,5%. The members that will be detected will increase over time, so keep an eye on this repo yah hehe^^
 
 ### List of member:
 1. Fiony
