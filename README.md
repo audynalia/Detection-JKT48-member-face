@@ -20,7 +20,6 @@ This repository contain my personal project documentation about JKT48 members fa
    from ultralytics import YOLO
    from ray import tune
    import cv2
-   import cv2
    import numpy as np
    from statistics import mean
    import matplotlib.pyplot as plt
