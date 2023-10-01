@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['ashel', 'fiony', 'shani']
+
+roboflow:
+  workspace: latihan-kxxww
+  project: deteksi-muka-member
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/latihan-kxxww/deteksi-muka-member/dataset/8
