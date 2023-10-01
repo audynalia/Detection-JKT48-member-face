@@ -6,10 +6,24 @@ List of member:
 1. Fiony
 2. Ashel
 3. Shani
+
 ###How to use the model?
 
 1. Install requirements on Google Colab
    ```bash
    !pip install -q ultralytics "ray[tune]"
    !pip uninstall -q -y albumentations
+   ```
+2. Import library
+   ```bash
+   from roboflow import Roboflow
+   from ultralytics import YOLO
+   from ray import tune
+   import cv2
+   import cv2
+   import numpy as np
+   from statistics import mean
+   import matplotlib.pyplot as plt
+   from PIL import Image
+   from google.colab.patches import cv2_imshow
    ```
