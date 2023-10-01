@@ -14,7 +14,7 @@ This repository contain my personal project documentation about JKT48 members fa
    !pip install -q ultralytics "ray[tune]"
    !pip uninstall -q -y albumentations
    ```
-2. Import library
+2. Import `library`
    ```bash
    from roboflow import Roboflow
    from ultralytics import YOLO
@@ -27,7 +27,7 @@ This repository contain my personal project documentation about JKT48 members fa
    from PIL import Image
    from google.colab.patches import cv2_imshow
    ```
-3. Download model on `Model` with name `detectmemberbest.pt`
+3. Download model on `Model` folder with name `detectmemberbest.pt`
 4. Open `Google Colab`, connect runtime and upload the model
 5. Copy this code to predict
    ```bash
