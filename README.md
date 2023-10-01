@@ -7,7 +7,7 @@ List of member:
 2. Ashel
 3. Shani
 
-###How to use the model?
+### How to use the model?
 
 1. Install requirements on Google Colab
    ```bash
