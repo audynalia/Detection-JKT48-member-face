@@ -27,3 +27,10 @@ List of member:
    from PIL import Image
    from google.colab.patches import cv2_imshow
    ```
+3. Download model on `Model` with name `detectmemberbest.pt`
+4. Open `Google Colab`, connect runtime and upload the model
+5. Copy this code to predict
+   ```bash
+   PATH="path/to/directoryimagetest"
+   !yolo predict task=detect model=/path/to/model/detectmemberbest.pt imgsz=640 conf=0.5 max_det=1 source={PATH}
+   ```
